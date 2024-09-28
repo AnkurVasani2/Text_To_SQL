@@ -75,7 +75,7 @@ for message in st.session_state.messages:
 
 # Capture user input from chat
 prompt = st.chat_input("Ask Anything")
-
+st.chat_message("assistant").markdown("Hello, User!")
 # Generate a prompt for the Google AI model based on the SQL schema and user input
 if prompt:
     st.chat_message("user").markdown(prompt)
