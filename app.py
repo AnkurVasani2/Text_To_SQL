@@ -53,7 +53,7 @@ if file_content:  # Ensure file content is not empty
 
     Respond stricly in the following format: 
     
-    The database appears to be designed for: 
+    The database appears to be designed for
     """
     
     try:
